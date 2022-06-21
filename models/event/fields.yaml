@@ -1,0 +1,68 @@
+fields:
+    title:
+        label: 'Event name'
+        span: full
+        type: text
+    details:
+        label: 'Event Details'
+        size: large
+        span: full
+        type: richeditor
+    date_start:
+        label: 'Date Start'
+        mode: date
+        format: d-m-Y
+        span: auto
+        type: datepicker
+    date_end:
+        label: 'Date End'
+        mode: date
+        format: d-m-Y
+        span: auto
+        type: datepicker
+    hour_start:
+        label: 'Hour start'
+        mode: time
+        span: auto
+        type: datepicker
+    hour_end:
+        label: 'Hour End'
+        mode: time
+        span: auto
+        type: datepicker
+    url:
+        label: 'URL of Event'
+        span: left
+        placeholder: 'https://www.example.com'
+        type: text
+    location_name:
+        label: 'Location Name'
+        span: full
+        type: text
+    location_address:
+        label: 'Location Address'
+        size: tiny
+        span: auto
+        type: textarea
+    email_contact:
+        label: 'Email contact'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: left
+        preset:
+            field: title
+            type: slug
+        type: text
+    event_image:
+        label: 'Event Image'
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '300'
+        imageHeight: '200'
+        type: fileupload

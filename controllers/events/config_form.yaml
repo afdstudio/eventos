@@ -1,0 +1,11 @@
+name: Events
+modelClass: AfonsoStudio\EventsSchedule\Models\Event
+form: $/afonsostudio/eventsschedule/models/event/fields.yaml
+defaultRedirect: afonsostudio/eventsschedule/events
+create:
+    redirect: 'afonsostudio/eventsschedule/events/update/:id'
+    redirectClose: afonsostudio/eventsschedule/events
+update:
+    redirect: afonsostudio/eventsschedule/events
+    redirectClose: afonsostudio/eventsschedule/events
+preview: {  }

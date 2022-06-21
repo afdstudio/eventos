@@ -1,0 +1,8 @@
+{
+    "name": "afonsostudio/eventsschedule",
+    "type": "october-plugin",
+    "description": "Calendario com Eventos",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

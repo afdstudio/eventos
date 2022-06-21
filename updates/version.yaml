@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table afonsostudio_eventsschedule_'
+    - builder_table_create_afonsostudio_eventsschedule_.php
+1.0.3:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule_.php
+1.0.4:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__2.php
+1.0.5:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__3.php
+1.0.6:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__4.php
+1.0.7:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__5.php
+1.0.8:
+    - 'Drop table afonsostudio_eventsschedule_'
+    - builder_table_delete_afonsostudio_eventsschedule_.php
+1.0.9:
+    - 'Created table afonsostudio_eventsschedule_'
+    - builder_table_create_afonsostudio_eventsschedule__2.php
+1.0.10:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__6.php
+1.0.11:
+    - 'Updated table afonsostudio_eventsschedule_'
+    - builder_table_update_afonsostudio_eventsschedule__7.php

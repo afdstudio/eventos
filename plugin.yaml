@@ -1,0 +1,11 @@
+plugin:
+    name: 'afonsostudio.eventsschedule::lang.plugin.name'
+    description: 'afonsostudio.eventsschedule::lang.plugin.description'
+    author: 'Afonso Studio'
+    icon: oc-icon-adjust
+    homepage: 'https://www.afonsodesigners.com'
+navigation:
+    main-menu-item:
+        label: Events
+        url: afonsostudio/eventsschedule/events
+        icon: icon-calendar-o

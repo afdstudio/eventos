@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    date_start:
+        label: 'Date Start'
+        type: date
+        searchable: true
+        sortable: true
