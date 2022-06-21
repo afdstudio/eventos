@@ -1,5 +1,5 @@
 {
-    "name": "afonsostudio/eventsschedule",
+    "name": "afonsostudio/eventsschedule-plugin",
     "type": "october-plugin",
     "description": "Calendario com Eventos",
     "require": {
