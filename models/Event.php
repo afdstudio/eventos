@@ -8,10 +8,12 @@ use Model;
 class Event extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-    
+
     use \October\Rain\Database\Traits\SoftDelete;
 
     protected $dates = ['deleted_at'];
+
+    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
 
 
     /**
@@ -23,6 +25,13 @@ class Event extends Model
      * @var array Validation rules
      */
     public $rules = [
+    ];
+    /**
+     * @var array Attributes that support translation, if available.
+     */
+    public $translatable = [
+        'title',
+        'details'
     ];
     // Relations
     public $attachOne = [
